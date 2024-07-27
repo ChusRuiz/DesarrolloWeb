@@ -4,7 +4,7 @@
    <title>Mi primera web</title>
    <style>
        table, th, td {
-           border: 1px solid black;
+           border: 1px solid rgb(8, 81, 51);
        }
    </style>
 </head>
@@ -19,15 +19,15 @@
        <tbody>
            <tr>
                <td>Chanchito feliz</td>
-               <td>$20.000</td>
+               <td>$20.00</td>
            </tr>
            <tr>
                <td>Carro</td>
-               <td>$10.000</td>
+               <td>$10.00</td>
            </tr>
            <tr>
                <td>Chanchito triste</td>
-               <td>$50.000</td>
+               <td>$50.00</td>
            </tr>
        </tbody>
        <tfoot>
@@ -36,14 +36,12 @@
        </tfoot>
       
    </table>
-   <!-- lista no ordenada -->
    <ul>
        <li>Inicio</li>
        <li>Productos</li>
        <li>Servicios</li>
        <li>Contacto</li>
    </ul>
-   <!-- lista ordenada -->
    <ol>
        <li value="50">Inicio</li>
        <li>Productos</li>
@@ -57,19 +55,16 @@
            </ol>
        </li>
    </ol>
-
-
-
-
    <form action="/formulario" method="POST">
-       <label for="nombre">Nombre:</label>
+    
+       <label for="nombre">nombre:</label>
        <input value="Chanchito" type="text" id="nombre" name="nombre" placeholder="Nombre"/>
        <br>
        <label for="apellido">Apellido:</label>
        <input value="feliz" type="text" id="apellido" name="apellido" placeholder="Nombre"/>
        <br>
-       <label for="comentario">Comentario</label>
-       <textarea rows="10" cols="50" id="comentario" placeholder="ingrese comentario" name="comentario">Este es un valor por defecto</textarea>
+       <label for="comentario">comentario</label>
+       <textarea rows="10" cols="50" id="comentario" placeholder="ingrese comentario" name="comentario">Este es un valor</textarea>
        <br>
        <button type="button">
            Boton
@@ -81,25 +76,24 @@
            Enviar
        </button>
    </form>
-   <h1>Mi primer heading</h1>  
-   <h2>Mi segundo heading</h2>  
-   <h3>Mi tercero heading</h3>
-   <h4>Mi cuarto heading</h4>
-   <h5>Mi quinto heading</h5>  
-   <h6>Mi sexto heading</h6> 
+   <h1>Mi 1 heading</h1>  
+   <h2>Mi 2 heading</h2>  
+   <h3>Mi 3 heading</h3>
+   <h4>Mi 4 heading</h4>
+   <h5>Mi 5 heading</h5>  
+   <h6>Mi 6 heading</h6> 
    <p>Chanchito feliz esta muy feliz.</p>
    <p>Chanchito triste esta muy triste.</p>
    <hr>
    <h2>Chanchito felipe</h2>
+
    <p>Este texto es <span style="color: blue;">mucho mas largo</span>
        y es para mostrar<br>
        la etiqueta de span
    </p>
-   <!--  este texto es un comentario
-       y no se muestra en el explorador -->
+   <!--este texto es un comentario
+            y no se muestra en el explorador-->
    <a target="_blank" href="https://www.google.com"> Ir a Google</a>
    <img src="img/descarga (11).png" width="400"/>
-
-
 </body>
 </html>
